@@ -63,24 +63,24 @@ export const CAMERA_CONFIG = [
     name: "Lobby Camera",
     location: "lobby",
     defaultSource: "placeholder",
-    defaultVideoUrl: "/videos/fighting.mp4",
-    defaultProcessingEnabled: true,
+    defaultVideoUrl: "",
+    defaultProcessingEnabled: false,
   }),
 
-  /*buildCamera({
+  buildCamera({
     id: "cam_03",
     name: "Gathering Area Camera",
     location: "gathering_area",
     defaultSource: "stream",
     defaultProcessingEnabled: true,
-  }),*/
+  }),
 
   buildCamera({
     id: "cam_04",
     name: "Main hall Camera",
     location: "parking_area",
     defaultSource: "placeholder",
-    defaultVideoUrl: "/videos/normal_001.mp4",
+    defaultVideoUrl: "",
     defaultProcessingEnabled: false,
   }),
 
@@ -89,7 +89,8 @@ export const CAMERA_CONFIG = [
     name: "Street Preview",
     location: "multi_purpose_room",
     defaultSource: "placeholder",
-    defaultVideoUrl: "/videos/normal_002.mp4",
+
+    defaultVideoUrl: "",
     defaultProcessingEnabled: false,
   }),
 
@@ -98,7 +99,7 @@ export const CAMERA_CONFIG = [
     name: "Main Entrance View",
     location: "store_room",
     defaultSource: "placeholder",
-    defaultVideoUrl: "/videos/normal_004.mp4",
+    defaultVideoUrl: "",
     defaultProcessingEnabled: false,
   }),
 ];
