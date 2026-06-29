@@ -102,6 +102,19 @@ ground-officer/.vite-temp/
 
 *.zip
 
+# Demo/test media — keep large video files out of Git (local-only).
+frontend/public/videos/*.mp4
+frontend/public/videos/*.mov
+frontend/public/videos/*.avi
+frontend/public/videos/*.mkv
+backend/tests/**/*.mp4
+backend/tests/**/*.mov
+backend/tests/**/*.avi
+backend/tests/**/*.mkv
+# Keep placeholder folders tracked.
+!frontend/public/videos/.gitkeep
+!backend/tests/fixtures/.gitkeep
+
 # Fight AI service
 fight_ai_service/venv/
 fight_ai_service/.venv/
